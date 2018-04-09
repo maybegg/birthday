@@ -2,182 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Title</title>
-    <script>
-        document.documentElement.style.fontSize = (document.documentElement.clientWidth || document.body.clientWidth) / 750 * 100 + 'px'
-    </script>
-    <style>
-        html,body,header,main,section,p,ul,li,input,span,a{
-            margin: 0;
-            padding: 0;
-        }
-        html{
-            font-size: 100px;
-            font-family: "微软雅黑";
-        }
-        header p{
-            font-size: .35rem;
-            text-align: center;
-            padding: .4rem 0 .2rem;
-            color: #a550c0;
-            border-bottom: 1px solid #ccc;
-        }
-        main .top{
-            height: 1.5rem;
-            padding-bottom: .18rem;
-            border-bottom: 1px solid #ccc;
-        }
-        main .top p:nth-child(1){
-            font-size: .3rem;
-            text-align: center;
-            line-height: .66rem;
-        }
-        main .top p:nth-child(2){
-            font-size: .26rem;
-            text-align: center;
-            line-height: .66rem;
-        }
-        main ul li{
-            color: #333;
-            padding: .3rem 0;
-            height: 1.05rem;
-            font-size: .3rem;
-        }
-        main ul li:nth-child(even){
-            background: #e8f9f7;
-        }
-        main ul li p{
-            color: #333;
-            font-size: .3rem;
-            line-height: .4rem;
-            margin-bottom: .15rem;
-            margin-left: .35rem;
-        }
-        main ul li div{
-            font-size: .28rem;
-            margin-left: .5rem;
-        }
-        main ul li div input[type=radio]{
-            display: inline-block;
-            width: .3rem;
-            height: .3rem;
-            vertical-align: middle;
-            margin-right: .1rem;
-        }
-        input:checked {
-            background: url("radio.png") no-repeat;
-
-            -webkit-transition: background-position .2s .15s cubic-bezier(0, 0, .2, 1),
-            -webkit-transform .25s cubic-bezier(0, 0, .2, 1);
-        }
-        input:active {
-            -webkit-transform: scale(1.5);
-            -webkit-transition: -webkit-transform .1s cubic-bezier(0, 0, .2, 1);
-        }
-        main ul li div span{
-            vertical-align: middle;
-            margin-right: .35rem;
-        }
-        .submit{
-            display: block;
-            width: 100%;
-            height: .85rem;
-            line-height: .85rem;
-            text-align: center;
-            background: #a550c0;
-            color: #fff;
-            font-size: .3rem;
-            -webkit-tap-highlight-color: transparent;
-            text-decoration: none;
-        }
-    </style>
 </head>
 <body>
-<header>
-    <section>
-        <p>中医体质测评</p>
-    </section>
-</header>
-<main>
-    <section class="top">
-        <p>湿热质</p>
-        <p>请根据近一年的体验和感觉，回答以下问题。</p>
-    </section>
-    <ul>
-        <li>
-            <p>1.您面部或鼻部有油腻感或者油亮发光吗？</p>
-            <div>
-                <input type="radio" name="one"><span>没有</span>
-                <input type="radio" name="one"><span>很少</span>
-                <input type="radio" name="one"><span>有时</span>
-                <input type="radio" name="one"><span>经常</span>
-                <input type="radio" name="one"><span>总是</span>
-            </div>
-        </li>
-        <li>
-            <p>2.您面部或鼻部有油腻感或者油亮发光吗？</p>
-            <div>
-                <input type="radio" name="two"><span>没有</span>
-                <input type="radio" name="two"><span>很少</span>
-                <input type="radio" name="two"><span>有时</span>
-                <input type="radio" name="two"><span>经常</span>
-                <input type="radio" name="two"><span>总是</span>
-            </div>
-        </li>
-        <li>
-            <p>3.您面部或鼻部有油腻感或者油亮发光吗？</p>
-            <div>
-                <input type="radio" name="three"><span>没有</span>
-                <input type="radio" name="three"><span>很少</span>
-                <input type="radio" name="three"><span>有时</span>
-                <input type="radio" name="three"><span>经常</span>
-                <input type="radio" name="three"><span>总是</span>
-            </div>
-        </li>
-        <li>
-            <p>4.您面部或鼻部有油腻感或者油亮发光吗？</p>
-            <div>
-                <input type="radio" name="four"><span>没有</span>
-                <input type="radio" name="four"><span>很少</span>
-                <input type="radio" name="four"><span>有时</span>
-                <input type="radio" name="four"><span>经常</span>
-                <input type="radio" name="four"><span>总是</span>
-            </div>
-        </li>
-        <li>
-            <p>5.您面部或鼻部有油腻感或者油亮发光吗？</p>
-            <div>
-                <input type="radio" name="five"><span>没有</span>
-                <input type="radio" name="five"><span>很少</span>
-                <input type="radio" name="five"><span>有时</span>
-                <input type="radio" name="five"><span>经常</span>
-                <input type="radio" name="five"><span>总是</span>
-            </div>
-        </li>
-        <li>
-            <p>6.您面部或鼻部有油腻感或者油亮发光吗？</p>
-            <div>
-                <input type="radio" name="six"><span>没有</span>
-                <input type="radio" name="six"><span>很少</span>
-                <input type="radio" name="six"><span>有时</span>
-                <input type="radio" name="six"><span>经常</span>
-                <input type="radio" name="six"><span>总是</span>
-            </div>
-        </li>
-        <li>
-            <p>7.您面部或鼻部有油腻感或者油亮发光吗？</p>
-            <div>
-                <input type="radio" name="seven"><span>没有</span>
-                <input type="radio" name="seven"><span>很少</span>
-                <input type="radio" name="seven"><span>有时</span>
-                <input type="radio" name="seven"><span>经常</span>
-                <input type="radio" name="seven"><span>总是</span>
-            </div>
-        </li>
-    </ul>
-    <a href="javascript:;" class="submit">提交并获取结果</a>
-</main>
+
+
+<script src="./jweixin-1.2.0.js"></script>
+<script>
+    console.log(wx);
+    wx.ready(function(){
+        // config信息验证后会执行ready方法，所有接口调用都必须在config接口获得结果之后，config是一个客户端的异步操作，所以如果需要在页面加载时就调用相关接口，则须把相关接口放在ready函数中调用来确保正确执行。对于用户触发时才调用的接口，则可以直接调用，不需要放在ready函数中。
+        console.log(1);
+    });
+
+    wx.error(function(){
+        console.log(2)
+    });
+
+    wx.onMenuShareTimeline({
+        title: '123', // 分享标题
+        link: '123', // 分享链接，该链接域名必须与当前企业的可信域名一致
+        // imgUrl: '', // 分享图标
+        success: function () {
+            // 用户确认分享后执行的回调函数
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+</script>
 </body>
 </html>
