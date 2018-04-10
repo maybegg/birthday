@@ -28,7 +28,7 @@
         })();
 
         // 所有功能必须包含在 WeixinApi.ready 中进行
-        WeixinApi.ready(function(Api){
+        WeixinApi.ready = function(Api){
 
             // 微信分享的数据
             var wxData = {
@@ -71,7 +71,7 @@
 
             // 点击分享到腾讯微博，会执行下面这个代码
             Api.shareToWeibo(wxData, wxCallbacks);
-        });
+        };
         // function sendMessage(){
         //     WeixinJSBridge.on('menu:share:appmessage', function(argv){
         //         WeixinJSBridge.invoke('sendAppMessage',{
