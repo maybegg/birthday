@@ -36,6 +36,29 @@
             // 用户取消分享后执行的回调函数
         }
     });
+
+    function sendMessage(){
+        WeixinJSBridge.on('menu:share:appmessage', function(argv){
+
+            WeixinJSBridge.invoke('sendAppMessage',{
+
+                "appid":"", //appid 设置空就好了。
+                "img_url": 'https://opas-file.b0.upaiyun.com/image/20160818/c8e9856797c3a6cc99cdab7070c77d10.png', //分享时所带的图片路径
+                "img_width": "120", //图片宽度
+                "img_height": "120", //图片高度
+                "link":window.location.href, //分享附带链接地址
+                "desc":"我是一个介绍", //分享内容介绍
+                "title":"标题，再简单不过了。"
+            }, function(res){/*** 回调函数，最好设置为空 ***/
+
+            });
+
+        });
+    }
+
+    if(document.addEventListener){
+        document.addEventListener('WeixinJSBridgeReady', sendMessage, false); }else if(document.attachEvent){
+        document.attachEvent('WeixinJSBridgeReady' , sendMessage); document.attachEvent('onWeixinJSBridgeReady' , sendMessage); }
 </script>
 </body>
 </html>
