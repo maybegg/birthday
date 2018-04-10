@@ -17,9 +17,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+            <state relative-caret-position="95">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
               <folding>
+                <element signature="e#1348#2044#0" />
                 <element signature="n#style#0;n#button#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#2596#2600#0" expanded="true" />
                 <element signature="n#style#0;n#button#1;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -105,12 +106,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523323661404</updated>
-      <workItem from="1523323663041" duration="4295000" />
+      <workItem from="1523323663041" duration="4601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4295000" />
+    <option name="totallyTimeSpent" value="4601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -140,12 +141,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+        <state relative-caret-position="95">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
+            <element signature="e#1348#2044#0" />
             <element signature="n#style#0;n#button#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#2596#2600#0" expanded="true" />
             <element signature="n#style#0;n#button#1;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
